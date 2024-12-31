@@ -1,7 +1,7 @@
 Intellij Decompile Example
 ===
 
-This project contains the class `TestController` from [grails-core](https://github.com/grails/grails-core.git) to demonstrate how the [java-decompiler](https://java-decompiler.github.io/) can decompile methods on the `TestController.class` but the FernFlower decompiler cannot.  
+This project contains the class `TestController` from [grails-core](https://github.com/grails/grails-core.git) to demonstrate how the [java-decompiler](https://java-decompiler.github.io/) can decompile methods on the `TestController.class` but the FernFlower decompiler cannot. The Grails' `ControllerActionTransformer` is the groovy transform applied to `TestController` to generate various methods for the Grails framework.
 
 To Test
 ---
